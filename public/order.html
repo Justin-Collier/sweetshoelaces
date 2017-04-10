@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 6th Edition  v 1.16
+     
+
+      Individual Project Template
+  
+      Author: Justin Collier
+      Date:   Feb 13, 2017
+
+      Filename: help.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0">
+   <title>Individual Student Project Template 1</title>
+   <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="project.css" />
+   <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+   <div id="container">
+      <header>
+        <!--
+Changed header image to shoelace logo -->
+         <h1>
+            <img src="https://cdn.gomix.com/1f6dc225-8b6c-48da-94ce-12320d000142%2FGhetto%20Shoelace%20logo.png" alt="INFO 301 - Student Project" title="" />
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li id="currentpage"><a href="#">Order</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/about.html">About</a></li>      </ul>
+      </nav>
+        
+      <article>
+         <h2>Order</h2>
+        <!-- Added thumbs up picture and product items and values to lines 48-64 -->
+<p align="center">
+<img src="https://cdn.gomix.com/1f6dc225-8b6c-48da-94ce-12320d000142%2FThumbs%20up.png" />
+</p>
+         <form>
+           <input type="checkbox" id="item1" value="1" />
+           <label for="item1">S round shoelace ($1)</label>
+           <input type="checkbox" id="item2" value="1.50" /><br/> <!-- Added break to line up labels with boxes -->
+           <label for="item2">M round shoelace ($1.50)</label>
+           <input type="checkbox" id="item3" value="2" /><br/>
+           <label for="item3">L round shoelace ($2)</label>
+           <input type="checkbox" id="item4" value="2.50" /><br/>
+           <label for="item4">XL round shoelace ($2.50)</label>
+           <input type="checkbox" id="item5" value="1" /><br/>
+           <label for="item5">S flat shoelace ($1)</label>
+           <input type="checkbox" id="item6" value="1.50" /><br/>
+           <label for="item6">M flat shoelace ($1.50)</label>
+           <input type="checkbox" id="item7" value="2" /><br/>
+           <label for="item7">L flat shoelace ($2)</label>
+           <input type="checkbox" id="item8" value="2.50" /><br/>
+           <label for="item8">XL flat shoelace ($2.50)</label>
+        <br>  
+           <input type="button" id="sButton" value="Submit" /> <!-- submit button added -->
+        </form>
+        <br><br>
+        <div id="total"></div> <!-- added total as an id -->
+      </article>
+    
+      <footer>
+         <p>Sweet Shoelaces &bull; Salisbury, Maryland</p> <!-- added company name -->
+      </footer>
+   </div>
+ <script src="script.js"></script>
+</body>
+</html>
